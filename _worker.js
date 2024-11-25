@@ -4,7 +4,7 @@ import { connect } from 'cloudflare:sockets';
 
 // Generate your own UUID using the following command in PowerShell:
 // Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '7dc8c9ed-cfe7-4cbf-bfea-b6c0641b9158';
+let userID = '2928d83a-ca75-4d52-b437-fa78c7601378';
 
 // Proxy IPs to choose from
 let proxyIPs = [
@@ -29,8 +29,6 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 // Preferred address API interface
 let ipUrlTxt = [
 	'https://raw.githubusercontent.com/Luckerwang/am-cf-tunnel/main/ipv4.txt',
-         //'https://github.com/Luckerwang/am-cf-tunnel/main/ipv4.txt'
-
 	// 'https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/ipv6.txt'
 ];
 let ipUrlCsv = [
@@ -702,7 +700,7 @@ function getConfigHtml(userID, host, remark, v2ray, clash) {
 	const htmlHead = `
     <head>
       <title>am-cf-tunnel(OK科技)</title>
-      <meta name='description' content='This is a project to generate free vmess nodes. For more information,  ' />
+      <meta name='description' content='This is a project to generate free vmess nodes. For more information, please subscribe youtube(AM科技) https://youtube.com/@AM_CLUB and follow GitHub https://github.com/amclubs ' />
       <style>
         body {
           font-family: Arial, sans-serif;
@@ -743,6 +741,20 @@ function getConfigHtml(userID, host, remark, v2ray, clash) {
         }
       </style>
     </head>
+  `;
+
+	// Prepare header string with left alignment
+	const header = `
+		<p align="left" style="padding-left: 20px; margin-top: 20px;">
+		Telegram交流群 技术大佬~在线交流</br>
+		<a href="t.me/" target="_blank">t.me</a>
+		</br></br>
+		GitHub项目地址 点击Star!Star!Star!</br>
+		<a href="https://github.com/amclubs/am-cf-tunnel" target="_blank">https://https://github.com/Luckerwang/am-cf-tunnel</a>
+		</br></br>
+		YouTube频道,订阅频道,更多技术分享</br>
+		<a href="https://youtube.com/" target="_blank">https://youtube.com/</a>
+		</p>
   `;
 
 	// Prepare the output string
