@@ -701,7 +701,7 @@ function getConfigHtml(userID, host, remark, v2ray, clash) {
 	// HTML Head with CSS and FontAwesome library
 	const htmlHead = `
     <head>
-      <title>am-cf-tunnel(AM科技)</title>
+      <title>am-cf-tunnel(OK科技)</title>
       <meta name='description' content='This is a project to generate free vmess nodes. For more information,  ' />
       <style>
         body {
@@ -749,13 +749,13 @@ function getConfigHtml(userID, host, remark, v2ray, clash) {
 	const header = `
 		<p align="left" style="padding-left: 20px; margin-top: 20px;">
 		Telegram交流群 技术大佬~在线交流</br>
-		<a href="t.me/AM_CLUBS" target="_blank">t.me/AM_CLUBS</a>
+		<a href="t.me/AM_CLUBS" target="_blank">t.me/S</a>
 		</br></br>
 		GitHub项目地址 点击Star!Star!Star!</br>
-		<a href="https://github.com/amubs/am-cf-tunnel" target="_blank">https://github.com/ambs/am-cf-tunnel</a>
+		<a href="https://github.com/amubs/am-cf-tunnel" target="_blank">https://github.com/Luckerwang/am-cf-tunnel</a>
 		</br></br>
 		YouTube频道,订阅频道,更多技术分享</br>
-		<a href="https://youtube.com/@AM_CLUB" target="_blank">https://youtube.com/@AM_CLUB</a>
+		<a href="https://youtube.com/@AM_CLUB" target="_blank">https://youtube.com</a>
 		</p>
   `;
 
