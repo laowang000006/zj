@@ -1,4 +1,3 @@
-run.bypass403.us.kg
 bpb-worker-panel-001-3h2.pages.dev
 c2024.pages.dev
 ffshgetg1.pages.dev
