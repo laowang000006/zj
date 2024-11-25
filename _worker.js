@@ -14,7 +14,7 @@ let proxyIPs = [
 // Randomly select a proxy IP from the list
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = 443;
-let proxyIpTxt = 'https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/proxyip.txt';
+let proxyIpTxt = 'https://raw.githubusercontent.com/Luckerwang/am-cf-tunnel/main//proxyip.txt';
 
 // Setting the socks5 will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
@@ -38,9 +38,9 @@ let ipUrlCsv = [
 ];
 // Preferred addresses with optional TLS subscription
 let ipLocal = [
-	'visa.cn:443#youtube.com/@AM_CLUB 订阅频道获取更多教程',
-	'icook.hk#t.me/AM_CLUBS 加入交流群解锁更多优选节点',
-	'time.is:443#github.com/amclubs GitHub仓库查看更多项目'
+	'visa.cn:443#ok',
+	'icook.hk#ok',
+	'time.is:443#ok'
 ];
 let noTLS = 'false';
 let sl = 5;
@@ -702,7 +702,7 @@ function getConfigHtml(userID, host, remark, v2ray, clash) {
 	const htmlHead = `
     <head>
       <title>am-cf-tunnel(AM科技)</title>
-      <meta name='description' content='This is a project to generate free vmess nodes. For more information, please subscribe youtube(AM科技) https://youtube.com/@AM_CLUB and follow GitHub https://github.com/amclubs ' />
+      <meta name='description' content='This is a project to generate free vmess nodes. For more information,  ' />
       <style>
         body {
           font-family: Arial, sans-serif;
@@ -752,7 +752,7 @@ function getConfigHtml(userID, host, remark, v2ray, clash) {
 		<a href="t.me/AM_CLUBS" target="_blank">t.me/AM_CLUBS</a>
 		</br></br>
 		GitHub项目地址 点击Star!Star!Star!</br>
-		<a href="https://github.com/amclubs/am-cf-tunnel" target="_blank">https://github.com/amclubs/am-cf-tunnel</a>
+		<a href="https://github.com/amubs/am-cf-tunnel" target="_blank">https://github.com/ambs/am-cf-tunnel</a>
 		</br></br>
 		YouTube频道,订阅频道,更多技术分享</br>
 		<a href="https://youtube.com/@AM_CLUB" target="_blank">https://youtube.com/@AM_CLUB</a>
