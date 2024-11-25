@@ -4,7 +4,7 @@ import { connect } from 'cloudflare:sockets';
 
 // Generate your own UUID using the following command in PowerShell:
 // Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '2928d83a-ca75-4d52-b437-fa78c7601378';
+let userID = '7dc8c9ed-cfe7-4cbf-bfea-b6c0641b9158';
 
 // Proxy IPs to choose from
 let proxyIPs = [
@@ -28,7 +28,7 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 
 // Preferred address API interface
 let ipUrlTxt = [
-	'https://github.com/Luckerwang/am-cf-tunnel/ipv4.txt',
+	'https://github.com/Luckerwang/am-cf-tunnel/main/ipv4.txt',
 	// 'https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/ipv6.txt'
 ];
 let ipUrlCsv = [
