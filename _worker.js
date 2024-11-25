@@ -14,7 +14,7 @@ let proxyIPs = [
 // Randomly select a proxy IP from the list
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = 443;
-let proxyIpTxt = 'https://raw.githubusercontent.com/laowang000006/zj/blob/main/proxyip.txt';
+let proxyIpTxt = 'https://raw.githubusercontent.com/laowang000006/zj/main/proxyip.txt';
 
 // Setting the socks5 will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
@@ -28,7 +28,7 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 
 // Preferred address API interface
 let ipUrlTxt = [
-	'https://raw.githubusercontent.com/laowang000006/zj/blob/main/ipv4.txt',
+	'https://raw.githubusercontent.com/laowang000006/zj/main/ipv4.txt',
 	// 'https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/ipv6.txt'
 ];
 let ipUrlCsv = [
