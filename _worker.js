@@ -28,7 +28,9 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 
 // Preferred address API interface
 let ipUrlTxt = [
-	'https://github.com/Luckerwang/am-cf-tunnel/main/ipv4.txt',
+	'https://raw.githubusercontent.com/Luckerwang/am-cf-tunnel/main/ipv4.txt',
+         //'https://github.com/Luckerwang/am-cf-tunnel/main/ipv4.txt'
+
 	// 'https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/ipv6.txt'
 ];
 let ipUrlCsv = [
