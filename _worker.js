@@ -1,9 +1,3 @@
-/**
- * YouTube Channel: https://youtube.com/@AM_CLUB
- * GitHub Repository: https://github.com/amclubs
- * Telegram Group: https://t.me/AM_CLUBS
- * Personal Blog: https://am.809098.xyz
- */
 
 // @ts-ignore
 import { connect } from 'cloudflare:sockets';
@@ -34,7 +28,7 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 
 // Preferred address API interface
 let ipUrlTxt = [
-	'https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/ipv4.txt',
+	'https://github.com/Luckerwang/am-cf-tunnel/ipv4.txt',
 	// 'https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/ipv6.txt'
 ];
 let ipUrlCsv = [
